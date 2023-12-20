@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+
+  .clock-container {
+    display: none;
+  }
+  
+  .digital-clock {
+    display: flex;
+  }
+  
+  .box {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #fff;
+    background-color: #34495e;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .colon {
+    font-size: 3em;
+    color: #fff;
+    margin: 5px;
+  }
+  
+  .format-buttons {
+    margin-top: 20px;
+    display: flex;
+  justify-content: center; 
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #63afe2;
+  }
+  
